@@ -1,0 +1,223 @@
+{
+    "data": {
+        "project": {
+            "apiComponents": {
+                "ApiContainer": {
+                    "id": "ApiContainer",
+                    "children": []
+                }
+            },
+            "assets": {
+                "6510e70ef7c7fd49275ed528": {
+                    "externalStorageType": "GCS",
+                    "_id": "6510e70ef7c7fd49275ed528",
+                    "size": "35517",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "logo-white.png",
+                    "backendURI": "/project/6509aaa79fb7fe0e317374b7/getasset/6510e70ef7c7fd49275ed528",
+                    "name": "logo-white.png",
+                    "externalName": "users/64f9cf535b362b3b800aacc9/projects/6509aaa79fb7fe0e317374b7/assets/6510e70ef7c7fd49275ed528",
+                    "createdAt": "2023-09-25T01:49:02.511Z",
+                    "updatedAt": "2023-09-25T01:49:02.511Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cf535b362b3b800aacc9/projects/6509aaa79fb7fe0e317374b7/assets/6510e70ef7c7fd49275ed528?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230925%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230925T014902Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=3ef5472a9ab8dc0c50f91f24275f19dceec72048273325bd624e2b616ff605494a6eaff847744950c85ce02fd61529d50c10ea8167bb9dc85c27a841cfaf2a358382fdb85f2eec81c0ca18af5cb95a8bc08b2476189f472b6f62023105bc8aab148475c8daeae50c41a87cb58f76bb75d5a808b46565210f5a8a59d2e88617e8a0017a4977bf4b55faf9a7a636fccdcf83b5095ba705eb07266feab28e4b7db4f85e7506356e58f6f6918fc5ee74777361f5d5a7190c329a0ea994b7448b5c14daf32e157c2ee2ae700505f671a7d173161ae9c00e990d716181bef49e811e501e47fd856d7fa3941b5da4c15e086b290fce591c49836b0c61bf3b34a4be22a8",
+                    "signedUrlExpirationTime": 1695779342547
+                }
+            },
+            "backendUpgradeVersion": 21,
+            "blockly": {
+                "4c1dba83-284b-434f-9a84-c9612779d180": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    }
+                },
+                "aa105473-3937-4a0a-ad17-87a743ef4267": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    }
+                },
+                "e1ee91d0-0783-4e89-8709-52fd9f05da25": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            },
+                            {
+                                "name": "NSPhotoLibraryUsageDescription",
+                                "label": "Photos",
+                                "hint": "Describe why your app uses photos."
+                            }
+                        ]
+                    }
+                }
+            },
+            "categories": [
+                "Social Networking"
+            ],
+            "components": {
+                "children": [
+                    "Sign Up Screen.4c1dba83-284b-434f-9a84-c9612779d180",
+                    "Profile Screen.e1ee91d0-0783-4e89-8709-52fd9f05da25",
+                    "Sign Out Screen.aa105473-3937-4a0a-ad17-87a743ef4267"
+                ]
+            },
+            "figmaComponents": {},
+            "description": null,
+            "icon": null,
+            "projectName": "Angel's Profile App",
+            "settings": {
+                "teamId": null,
+                "appName": null,
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyDDtFoac0U3fxWWI5_PiLYVqiLiVgHrusk",
+                "firebaseDatabaseURL": "https://angel-profile-app-default-rtdb.firebaseio.com",
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "projectSettings": {
+                "teamId": null,
+                "appName": null,
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyDDtFoac0U3fxWWI5_PiLYVqiLiVgHrusk",
+                "firebaseDatabaseURL": "https://angel-profile-app-default-rtdb.firebaseio.com",
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "hasAdmob": false,
+            "hasBluetoothLowEnergy": null,
+            "hasPushNotification": false,
+            "hasAssistant": null,
+            "dataSourceLinks": [],
+            "localDataSources": [],
+            "customProperties": [],
+            "modules": [],
+            "usesDragDropUi": true,
+            "totalCopy": "0",
+            "totalStar": "0",
+            "starAction": "star",
+            "variables": {
+                "14aec93b-1e3f-460f-b4e9-ca1250ba030e": {
+                    "scope": "APP",
+                    "name": "CurrentlySingingUp",
+                    "screenId": "4c1dba83-284b-434f-9a84-c9612779d180"
+                },
+                "6eb8421b-c239-4648-99ea-baaf94b86167": {
+                    "scope": "STORED",
+                    "name": "email",
+                    "screenId": "4c1dba83-284b-434f-9a84-c9612779d180"
+                },
+                "993e3ff8-6ca5-4789-aade-31a18f695c15": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "4c1dba83-284b-434f-9a84-c9612779d180"
+                },
+                "ee24e372-193d-42d8-bdc4-cb3458eb4afd": {
+                    "scope": "APP",
+                    "name": "session email",
+                    "screenId": "4c1dba83-284b-434f-9a84-c9612779d180"
+                },
+                "67f702d1-a797-49c4-92bb-7f5bae8a1721": {
+                    "scope": "APP",
+                    "name": "userID",
+                    "screenId": "4c1dba83-284b-434f-9a84-c9612779d180"
+                }
+            },
+            "defaultDesignerDevice": "PHONE",
+            "defaultDesignerOrientation": "PORTRAIT",
+            "schemaVersion": 2,
+            "organization": null,
+            "__typename": "Project"
+        }
+    }
+}
