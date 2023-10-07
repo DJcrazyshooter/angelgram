@@ -8,21 +8,21 @@
                 }
             },
             "assets": {
-                "6510e70ef7c7fd49275ed528": {
+                "651a0c9edab9d80199edd4ad": {
                     "externalStorageType": "GCS",
-                    "_id": "6510e70ef7c7fd49275ed528",
+                    "_id": "651a0c9edab9d80199edd4ad",
                     "size": "35517",
                     "mimetype": "image/png",
                     "encoding": "7bit",
                     "originalname": "logo-white.png",
-                    "backendURI": "/project/6509aaa79fb7fe0e317374b7/getasset/6510e70ef7c7fd49275ed528",
+                    "backendURI": "/project/651a0c9edab9d88fe2edd4ab/getasset/651a0c9edab9d80199edd4ad",
                     "name": "logo-white.png",
-                    "externalName": "users/64f9cf535b362b3b800aacc9/projects/6509aaa79fb7fe0e317374b7/assets/6510e70ef7c7fd49275ed528",
+                    "externalName": "users/64f9cf535b362b3b800aacc9/projects/651a0c9edab9d88fe2edd4ab/assets/651a0c9edab9d80199edd4ad",
                     "createdAt": "2023-09-25T01:49:02.511Z",
                     "updatedAt": "2023-09-25T01:49:02.511Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cf535b362b3b800aacc9/projects/6509aaa79fb7fe0e317374b7/assets/6510e70ef7c7fd49275ed528?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230925%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230925T014902Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=3ef5472a9ab8dc0c50f91f24275f19dceec72048273325bd624e2b616ff605494a6eaff847744950c85ce02fd61529d50c10ea8167bb9dc85c27a841cfaf2a358382fdb85f2eec81c0ca18af5cb95a8bc08b2476189f472b6f62023105bc8aab148475c8daeae50c41a87cb58f76bb75d5a808b46565210f5a8a59d2e88617e8a0017a4977bf4b55faf9a7a636fccdcf83b5095ba705eb07266feab28e4b7db4f85e7506356e58f6f6918fc5ee74777361f5d5a7190c329a0ea994b7448b5c14daf32e157c2ee2ae700505f671a7d173161ae9c00e990d716181bef49e811e501e47fd856d7fa3941b5da4c15e086b290fce591c49836b0c61bf3b34a4be22a8",
-                    "signedUrlExpirationTime": 1695779342547
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cf535b362b3b800aacc9/projects/651a0c9edab9d88fe2edd4ab/assets/651a0c9edab9d80199edd4ad?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231007%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231007T224406Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=1f69c57d9e8512049bc9ca62a84b94437e756d716e6fe4f5667066b40033202f881a1cf7fbc0d2e665aaeabf6534991fb11d2a4ad54f5bbbc597a19d012adf6f02e4c25aea7272e1300df3aca1b0473f7512c5ab71e348c95fc7300ad603e0103ba08e36aca400fd0e4999c844ad94144cbece13d57b2719665a150f9abb4c3e1046598483066198416609ceeaa0f84ae184dc29709807f8b901f2f01b64f24cb3de7d382185afd9d40641a9f09294f04e07bdb7c104efb1da58bb44969ae72a375743c550025b05a901599122fc58a06eb90c94c02f95b80e9f95c5d5d5df2a8c8ada6044ca1c0700cd761253b430d258bf1d5a023771d7d7824e90c1545bcf",
+                    "signedUrlExpirationTime": 1696891446521
                 }
             },
             "backendUpgradeVersion": 21,
@@ -89,8 +89,8 @@
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyDDtFoac0U3fxWWI5_PiLYVqiLiVgHrusk",
                 "firebaseDatabaseURL": "https://angel-profile-app-default-rtdb.firebaseio.com",
-                "stripePublishableKeyTest": null,
-                "stripePublishableKeyLive": null,
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
                 "stripeAccountId": null,
                 "stripeTestMode": true,
                 "isPublic": true,
@@ -99,18 +99,15 @@
                 "pushNotificationAndroidAppId": null,
                 "pushNotificationIOSAppId": null,
                 "pushNotificationGeolocationEnabled": null,
-                "yandexAPIKey": null,
-                "imageRecognizerServerURL": null,
-                "imageRecognizerSubscriptionKey": null,
-                "cloudName": null,
-                "cloudinaryAPIKey": null,
-                "cloudinaryAPISecret": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -121,7 +118,7 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-4863032341869212~5703441790",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
@@ -138,8 +135,8 @@
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyDDtFoac0U3fxWWI5_PiLYVqiLiVgHrusk",
                 "firebaseDatabaseURL": "https://angel-profile-app-default-rtdb.firebaseio.com",
-                "stripePublishableKeyTest": null,
-                "stripePublishableKeyLive": null,
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
                 "stripeAccountId": null,
                 "stripeTestMode": true,
                 "isPublic": true,
@@ -148,18 +145,15 @@
                 "pushNotificationAndroidAppId": null,
                 "pushNotificationIOSAppId": null,
                 "pushNotificationGeolocationEnabled": null,
-                "yandexAPIKey": null,
-                "imageRecognizerServerURL": null,
-                "imageRecognizerSubscriptionKey": null,
-                "cloudName": null,
-                "cloudinaryAPIKey": null,
-                "cloudinaryAPISecret": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -170,11 +164,11 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-4863032341869212~5703441790",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
