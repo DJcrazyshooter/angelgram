@@ -38,22 +38,43 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
-        "TabNavigatorIcon": {},
-        "DrawerNavigationOptions": {},
-        "StackNavigationOptions": {
-            "headerStyle": {}
-        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
-        "isSimple": true,
-        "navigationOptions": {
-            "headerStyle": {}
-        },
-        "tabNavigationOptions": {}
+        "isSimple": true
     },
     "children": [
+        {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": -2,
+                "ParentId": "4c1dba83-284b-434f-9a84-c9612779d180",
+                "Y": 527.390625,
+                "RelativeX": -2,
+                "RelativeY": 527,
+                "position": "absolute",
+                "edgeOffsets": 527.390625,
+                "style": {
+                    "position": "absolute",
+                    "left": "42%",
+                    "top": "76.37040854572713%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "b1064ab9-a631-40e0-b129-269d3d73271f",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner1"
+        },
         {
             "type": "Image",
             "translatedName": "Image",
@@ -90,7 +111,6 @@
                     "top": "76.12093704245973%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "e1ee91d0-0783-4e89-8709-52fd9f05da25",
                 "position": "absolute",
                 "edgeOffsets": 576.62109375
@@ -136,7 +156,6 @@
                     "top": "74.02196193265007%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "4c1dba83-284b-434f-9a84-c9612779d180",
                 "position": "absolute",
                 "edgeOffsets": {
@@ -171,7 +190,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -227,16 +245,15 @@
                 "Height": 68,
                 "Width": 346,
                 "Visible": true,
-                "X": 15,
-                "Y": 475,
-                "RelativeX": 15,
-                "RelativeY": 475,
+                "X": 11,
+                "Y": 441,
+                "RelativeX": 11,
+                "RelativeY": 441,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(208, 2, 27, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -271,7 +288,7 @@
                 },
                 "ParentId": "4c1dba83-284b-434f-9a84-c9612779d180",
                 "position": "absolute",
-                "edgeOffsets": 475,
+                "edgeOffsets": 441,
                 "children": ""
             },
             "children": [],
@@ -440,7 +457,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -529,7 +545,6 @@
                             "color": "rgba(0, 0, 0, 1)",
                             "fontSize": 16,
                             "fontStyle": "normal",
-                            "textShadowOffset": {},
                             "letterSpacing": 0,
                             "textDecorationLine": "none",
                             "textDecorationStyle": "solid",
@@ -599,7 +614,6 @@
                             "color": "rgba(0, 0, 0, 1)",
                             "fontSize": 18,
                             "fontStyle": "normal",
-                            "textShadowOffset": {},
                             "letterSpacing": 0,
                             "textDecorationLine": "none",
                             "textDecorationStyle": "solid",
@@ -664,7 +678,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 16,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -734,7 +747,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -799,7 +811,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -860,7 +871,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 16,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
